@@ -15,6 +15,14 @@ Enhanced Firefox user.js configuration for privacy, security and performance.
 - Basic knowledge of Firefox configuration
 - Backup of your Firefox profile (recommended)
 
+## 🛠️  Recommended Tools
+
+- [Bitwarden](https://github.com/bitwarden) - Open source password manager to securely manage your credentials
+- [Mullvad VPN](https://github.com/mullvad) - Privacy-focused VPN service, does not require email for registration
+- [uBlock Origin](https://github.com/gorhill/uBlock) - Efficient blocking of ads and trackers, good for performance and privacy
+
+These tools were selected for their reliability, focus on privacy, and compatibility with Primefox configurations.
+
 ## 📜 License
 
 This project is distributed under the MIT license. See the `LICENSE` file for more details.
