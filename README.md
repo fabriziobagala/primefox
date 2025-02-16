@@ -28,15 +28,53 @@ Enhanced Firefox user.js configuration for privacy, security and performance.
 
 ## 🛠️  Recommended Tools
 
-- [Bitwarden](https://github.com/bitwarden) - Open source password manager to securely manage your credentials
-- [Mullvad VPN](https://github.com/mullvad) - Privacy-focused VPN service, does not require email for registration
-- [uBlock Origin](https://github.com/gorhill/uBlock) - Efficient blocking of ads and trackers, good for performance and privacy
+### <img src="https://avatars.githubusercontent.com/u/15990069" width="24" align="texttop" /> Bitwarden
+
+Open source password manager to securely manage your credentials.
+
+- 🔗 **Link**
+    - [Official website](https://bitwarden.com/)
+    - [GitHub repository](https://github.com/bitwarden)
+- ⚙️ **Recommended configurations**
+    - Enable two-factor authentication using hardware keys (e.g., Yubico)
+    - Set a vault timeout
+    - Use Argon2id for password derivation
+    - Unlock with biometric data
+
+### <img src="https://avatars.githubusercontent.com/u/10848549" width="24" align="texttop" /> Mullvad VPN
+
+Privacy-focused VPN service, does not require email for registration.
+
+- 🔗 **Link**
+    - [Official website](https://mullvad.net/en)
+    - [GitHub repository](https://github.com/mullvad)
+- ⚙️ **Recommended configurations**
+    - Launch the app on startup
+    - Enable automatic connection
+    - Use the WireGuard protocol
+    - Enable obfuscation
+    - Enable quantum attack resistant tunneling
+    - Enable DAITA
+
+### <img src="https://github.com/gorhill/uBlock/raw/master/src/img/ublock.svg" width="24" align="texttop" /> uBlock Origin
+
+Efficient blocking of ads and trackers, good for performance and privacy.
+
+- 🔗 **Link**
+    - [Official website](https://ublockorigin.com/)
+    - [GitHub repository](https://github.com/gorhill/uBlock)
+- 🛡️ **Additional filters**
+    - AdGuard URL Tracking Protection
+    - EasyList/uBO – Cookie Notices
+    - EasyList – Social Widgets
+    - EasyList – Annoyances
+    - uBlock filters – Annoyances
 
 These tools were selected for their reliability, focus on privacy, and compatibility with Primefox configurations.
 
 ## 📜 License
 
-This project is distributed under the MIT license. See the `LICENSE` file for more details.
+This project is distributed under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ## 🙏 Credits
 
