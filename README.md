@@ -15,6 +15,17 @@ Enhanced Firefox user.js configuration for privacy, security and performance.
 - Basic knowledge of Firefox configuration
 - Backup of your Firefox profile (recommended)
 
+## 🚀 Installation
+
+1. Find your Firefox profile folder
+    - Type `about:profiles` into the address bar
+    - In the profile currently in use, click on "Show in Finder" or "Open Folder" (depends on the OS) in the root folder row
+2. Download the file
+   - Directly: [here](user.js)
+   - Via cURL: `curl -o user.js https://raw.githubusercontent.com/fabriziobagala/primefox/main/user.js`
+3. Copy the `user.js` file to the Firefox profile folder
+4. Restart Firefox to apply the changes
+
 ## 🛠️  Recommended Tools
 
 - [Bitwarden](https://github.com/bitwarden) - Open source password manager to securely manage your credentials
